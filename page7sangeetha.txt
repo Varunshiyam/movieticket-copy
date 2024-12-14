@@ -1,0 +1,21 @@
+<html>
+<head>
+<style>
+#grad {
+  background-image: linear-gradient(to right,violet,pink, yellow);
+}
+Direction</style>
+</head>
+
+<body id="grad">
+<font align="centre" size="80" align="center">Sangeetha cinemas</b></h1><br>
+<font size="6">movie timing</font>
+<ul align="center">
+<li>03.45PM</li>
+ <li>5:55PM</li>
+   
+<li>10.30PM</li>
+ 
+</ul></p>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Payment Status</title>
+</head>
+<body>
+  <div id="message"></div>
+
+  <script>
+    // Assuming you have a variable 'paymentSuccessful' that indicates payment status
+    var paymentSuccessful = true;
+
+    // Get the element where we want to display the message
+    var messageDiv = document.getElementById("message");
+
+    // Display different messages based on payment status
+    if (paymentSuccessful) {
+      messageDiv.textContent = "Ticket will be delivered to your number successfully";
+    } else {
+      messageDiv.textContent = "Payment had not been done successfully";
+    }
+  </script>
+</body>
+</html>
